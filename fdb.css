@@ -1,0 +1,50 @@
+h1.tClass {text-align: center; font-size: 24px; background-color: lightgray; padding: 10px; margin-top: 10px; margin-bottom: 10px;}
+
+div.con {display: flex;flex-direction: column;justify-content: center;align-items: center;}
+
+div.conOut {display: flex;flex-direction: column;justify-content: center;align-items: center; font-size: 2em;}
+
+ul {
+	list-style-type: none;
+	border: 5px solid red;
+	border-radius: 10px;
+	overflow: hidden;
+	background-color: white;
+}
+
+li {
+	float: left;
+	margin: 5px;
+}
+
+li a {
+	display: block;
+	color: black;
+	text-align: center;
+	background-color: white;
+	padding: 15px;
+}
+
+li a:hover {
+	background-color: black;
+	color: white;
+}
+
+.active {
+	color: black;
+	background-color: green;
+}
+
+input.text {
+	width: 400px;
+	height: 25px;
+}
+
+input.submit {
+	height: 25px;
+}
+
+input.text2 {
+	width: 600x;
+	height: 25px;
+}
